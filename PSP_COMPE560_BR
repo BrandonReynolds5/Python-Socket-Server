@@ -1,0 +1,10 @@
+The following files implement the Python Socket Programming assignment through the two files: Client_COMPE560_BR.py and Server_COMPE560_BR.py
+In order to run the server and clients first you must find an application that can run python code. This project was done on IDLE on Mac OS which
+was able to run python shells for the files. When you have found something to run the files, first run the Server_COMPE560_BR.py file to activate
+the server IP for use. If you choose to change the IP you can do so within the file. Then you must run the Client_COMPE560_BR.py for each client 
+you would like to add to the chat seperately. A method of doing this if on Mac OS is to start new seesions of IDLE through the running the command
+"idle3 &" for each new instance you need. When you run the client pyhto file, a GUI should appear where you can connect, send and receive messages,
+and quit the server. To send messages, the client first press "connect" to connect to the server where the GUI will notify the user if they connected.
+Then the user must simply type what they want to say in the box above "connect" and then click "send" to send their message. Incoming messages will be
+displayed where the client messages are sent all users will have their IP addresses and Ports displayed next to their message. When the user is done 
+they can click "quit" to disconnect from the server. 
